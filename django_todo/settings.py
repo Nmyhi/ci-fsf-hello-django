@@ -31,8 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = False
 
 
-
-ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+ALLOWED_HOSTS = ['https://ci-fsf-hello-django-app-mish-e0c07ac2c1de.herokuapp.com/']
 
 
 # Application definition
