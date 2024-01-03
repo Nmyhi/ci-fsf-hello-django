@@ -32,6 +32,7 @@ DEBUG = False
 
 
 ALLOWED_HOSTS = ['ci-fsf-hello-django-app-mish-e0c07ac2c1de.herokuapp.com']
+ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
 
 # Application definition
